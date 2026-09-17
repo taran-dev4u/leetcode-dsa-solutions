@@ -3,9 +3,10 @@ class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         if not strs:
             return ''
-        s1 = min(strs)
-        s2 = max(strs)
-        for i, char in enumerate(s1):
-            if i >= len(s2) or char != s2[i]:
-                return s1[:i]
-        return s1
+        prefix = []
+        for chars in zip(*strs):
+            if len(set(chars)) == 1:
+                prefix.append(chars[0])
+            else:
+                break
+        return ''.join(prefix)
