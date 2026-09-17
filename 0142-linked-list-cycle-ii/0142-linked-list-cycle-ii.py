@@ -1,3 +1,5 @@
+from typing import Optional
+
 class Solution:
 
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
@@ -9,9 +11,12 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
             if slow == fast:
-                entry = head
-                while entry != slow:
-                    entry = entry.next
-                    slow = slow.next
-                return entry
-        return None
+                break
+        else:
+            return None
+        ptr1 = head
+        ptr2 = slow
+        while ptr1 != ptr2:
+            ptr1 = ptr1.next
+            ptr2 = ptr2.next
+        return ptr1
