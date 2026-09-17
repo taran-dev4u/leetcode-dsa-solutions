@@ -14,13 +14,14 @@ class Solution:
         elif s[i] == '+':
             i += 1
         res = 0
-        while i < n and '0' <= s[i] <= '9':
-            res = res * 10 + (ord(s[i]) - 48)
+        while i < n and s[i].isdigit():
+            res = res * 10 + int(s[i])
             i += 1
-        res *= sign
-        INT_MIN, INT_MAX = (-2147483648, 2147483647)
-        if res < INT_MIN:
+        val = sign * res
+        INT_MIN = -2147483648
+        INT_MAX = 2147483647
+        if val < INT_MIN:
             return INT_MIN
-        if res > INT_MAX:
+        if val > INT_MAX:
             return INT_MAX
-        return res
+        return val
