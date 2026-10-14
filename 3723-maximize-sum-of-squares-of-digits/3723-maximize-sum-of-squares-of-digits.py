@@ -1,7 +1,7 @@
 class Solution:
 
     def maxSumOfSquares(self, num: int, sum: int) -> str:
-        if sum > 9 * num:
+        if sum < 1 or sum > 9 * num:
             return ''
         c9, r = divmod(sum, 9)
         c0 = num - c9 - (1 if r > 0 else 0)
