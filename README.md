@@ -136,6 +136,7 @@ MIT
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1882-process-tasks-using-servers](https://github.com/taran-dev4u/LeetCode_absolute_Learning/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/taran-dev4u/LeetCode_absolute_Learning/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/taran-dev4u/LeetCode_absolute_Learning/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/taran-dev4u/LeetCode_absolute_Learning/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
@@ -167,5 +168,6 @@ MIT
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1882-process-tasks-using-servers](https://github.com/taran-dev4u/LeetCode_absolute_Learning/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/taran-dev4u/LeetCode_absolute_Learning/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 <!---LeetCode Topics End-->
